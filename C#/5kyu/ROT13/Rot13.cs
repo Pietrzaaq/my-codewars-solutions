@@ -2,9 +2,9 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-public class Kata
+public class KataRot13
 {
-    public static string Rot13(string input)
+    public string Rot13(string input)
     {
         int MaxLowerCaseCharNumber = 122;
         int MinLowerCaseCharNumber = 97;

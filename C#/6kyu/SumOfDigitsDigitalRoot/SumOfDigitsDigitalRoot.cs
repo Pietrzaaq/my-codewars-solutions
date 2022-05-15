@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-public class Number
+public class KataDigitalRoot
 {
   public int DigitalRoot(long n)
   {

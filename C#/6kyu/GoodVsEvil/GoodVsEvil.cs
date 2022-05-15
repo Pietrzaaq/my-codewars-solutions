@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-public class Kata
+public class KataGoodVsEvil
 {
   public static string GoodVsEvil(string good, string evil)
   {

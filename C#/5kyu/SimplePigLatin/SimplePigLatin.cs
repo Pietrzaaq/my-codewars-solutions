@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Kata
+public class KataPigIt
 {
-  public static string PigIt(string str)
+  public  string PigIt(string str)
   {
-//     StringBuilder sb = new StringBuilder();
     
     string[] words = str.Split(" ").Select(word => {
       if(word.Length == 1) return word;
